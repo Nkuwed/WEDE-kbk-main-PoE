@@ -100,3 +100,189 @@ main > .wrap > * + section {
   margin-bottom: var(--space-5);
 }
 
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--step--1);
+  color: var(--rose-gold);
+  margin-bottom: var(--space-1);
+}
+
+.swipe {
+  width: 56px;
+  height: 3px;
+  background: var(--rose-gold);
+  border-radius: 999px;
+  margin: var(--space-2) 0 var(--space-3);
+}
+
+/* ---------- 4. HEADER / NAV ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(24, 19, 26, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--charcoal-line);
+}
+
+.site-header .wrap {
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--blush-soft);
+  font-size: var(--step-0);
+}
+
+.site-header .brand img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-header .brand h1 { font-size: var(--step-0); margin: 0; }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--blush-soft);
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+.back-link:hover,
+.back-link:focus-visible { color: var(--rose-gold); }
+
+/* Top nav hidden on mobile, shown at desktop breakpoint */
+.top-links {
+  display: none;
+}
+
+.top-links a {
+  padding: var(--space-1) var(--space-2);
+  color: #d8cdd3;
+  font-weight: 500;
+  border-radius: var(--radius-s);
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.top-links a:hover,
+.top-links a:focus-visible {
+  color: var(--blush-soft);
+  background: var(--charcoal-raised);
+}
+
+.top-links a.active {
+  color: var(--charcoal);
+  background: var(--blush);
+}
+
+.menu-toggle {
+  display: inline-flex;
+  padding: var(--space-1);
+  border-radius: var(--radius-s);
+  color: var(--blush-soft);
+}
+.menu-toggle:hover,
+.menu-toggle:focus-visible { background: var(--charcoal-raised); }
+
+/* ---------- 5. MOBILE DRAWER ---------- */
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.drawer.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(78vw, 320px);
+  background: var(--charcoal-raised);
+  border-left: 1px solid var(--charcoal-line);
+  padding: var(--space-4) var(--space-3);
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+}
+
+.drawer.is-open .drawer-panel { transform: translateX(0); }
+
+.drawer-close {
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--blush-soft);
+  margin-bottom: var(--space-3);
+}
+
+.drawer nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.drawer nav a {
+  padding: var(--space-2);
+  border-radius: var(--radius-s);
+  color: var(--cream);
+  font-weight: 500;
+}
+.drawer nav a:hover,
+.drawer nav a:focus-visible { background: var(--charcoal-line); color: var(--blush-soft); }
+
+/* ---------- 6. BUTTONS ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: var(--step-0);
+  transition: transform 0.15s ease, background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary {
+  background: var(--blush);
+  color: var(--charcoal);
+}
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--rose-gold);
+  color: var(--charcoal);
+}
+.btn-primary:active { transform: scale(0.98); }
+
+.btn-outline {
+  border: 1.5px solid var(--rose-gold);
+  color: var(--blush-soft);
+}
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  background: var(--rose-gold);
+  color: var(--charcoal);
+}
+
+
+
+
