@@ -1,1 +1,102 @@
+/* ---------- 1. CSS RESET ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, h1, h2, h3, h4, p, ul, ol, li, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+button { font: inherit; background: none; border: none; cursor: pointer; color: inherit; }
+input, textarea, select { font: inherit; color: inherit; }
+html { -webkit-text-size-adjust: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ---------- 2. DESIGN TOKENS ---------- */
+:root {
+  /* Colour */
+  --charcoal:      #18131a;
+  --charcoal-raised:#231c26;
+  --charcoal-line:  #33293a;
+  --blush:          #f1c4d6;
+  --blush-soft:     #f7dee7;
+  --rose-gold:      #c79a7b;
+  --rose-gold-dim:  #9c7c67;
+  --cream:          #f7f1ee;
+  --success:        #7fb99a;
+  --error:          #e08a94;
+
+  /* Type */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Type scale (mobile) */
+  --step--1: 0.875rem;
+  --step-0:  1rem;
+  --step-1:  1.25rem;
+  --step-2:  1.6rem;
+  --step-3:  2rem;
+  --step-4:  2.6rem;
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1.25rem;
+  --space-4: 2rem;
+  --space-5: 3.25rem;
+
+  /* Layout */
+  --wrap-max: 1120px;
+  --radius-s: 10px;
+  --radius-m: 16px;
+  --radius-l: 24px;
+  --header-h: 64px;
+  --tabbar-h: 68px;
+
+  --shadow-card: 0 12px 28px -12px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------- 3. BASE ---------- */
+body {
+  background: var(--charcoal);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.6;
+  padding-bottom: calc(var(--tabbar-h) + var(--space-2));
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--blush-soft);
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+h1 { font-size: var(--step-3); margin-bottom: var(--space-2); }
+h2 { font-size: var(--step-2); }
+h3 { font-size: var(--step-1); margin-bottom: var(--space-1); }
+h4 { font-size: var(--step-0); color: var(--rose-gold); }
+
+p { max-width: 62ch; color: #e7dde3; }
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap-max);
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}
+
+main {
+  display: block;
+  padding-top: var(--space-4);
+}
+
+main > .wrap > section,
+main > .wrap > * + section {
+  margin-bottom: var(--space-5);
+}
 
