@@ -601,6 +601,18 @@ form { display: flex; flex-direction: column; gap: var(--space-3); }
 .tab-bar .cta-tab:hover .tab-pill,
 .tab-bar .cta-tab:focus-visible .tab-pill { background: var(--rose-gold); }
 
+/* ---------- 14. RESPONSIVE: TABLET (≥600px) ---------- */
+@media (min-width: 600px) {
+  :root {
+    --step-3: 2.4rem;
+    --step-4: 3rem;
+  }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+  .pillars, .policy-list { grid-template-columns: repeat(2, 1fr); }
+  .hero-media img { height: 46vw; }
+}
 
 
 
