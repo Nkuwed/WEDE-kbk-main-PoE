@@ -156,4 +156,8 @@ Glamour South Africa, 2025. Nailed it: 9 local nail artists who are changing the
 KreatedByKeora, [s.a.]. TikTok profile. [TikTok] Available at: [Accessed 27 July 2026].
 All images are taken from KreatedByKeora main business account from Instagram < https://www.instagram.com/kreatedbykeora/ > [Accessed: 28 July 2026]
 
-
+**Part 2 additions:**
+Google Fonts, [s.a.]. Fraunces. [online] Available at: <https://fonts.google.com/specimen/Fraunces> [Accessed 10 September 2026].
+Google Fonts, [s.a.]. Manrope. [online] Available at: <https://fonts.google.com/specimen/Manrope> [Accessed 10 September 2026].
+MDN Web Docs, [s.a.]. CSS Grid Layout. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 10 September 2026].
+MDN Web Docs, [s.a.]. Using media queries. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 10 September 2026].
