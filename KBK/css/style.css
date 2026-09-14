@@ -493,6 +493,15 @@ form { display: flex; flex-direction: column; gap: var(--space-3); }
 }
 .form-success.is-visible { display: block; }
 
+.privacy-note {
+  font-size: var(--step--1);
+  color: #a99aa3;
+  border: 1px dashed var(--charcoal-line);
+  border-radius: var(--radius-s);
+  padding: var(--space-2);
+}
+.privacy-note strong { color: var(--blush-soft); }
+
 
 
 
