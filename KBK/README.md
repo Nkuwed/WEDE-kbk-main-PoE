@@ -161,3 +161,4 @@ Google Fonts, [s.a.]. Fraunces. [online] Available at: <https://fonts.google.com
 Google Fonts, [s.a.]. Manrope. [online] Available at: <https://fonts.google.com/specimen/Manrope> [Accessed 10 September 2026].
 MDN Web Docs, [s.a.]. CSS Grid Layout. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout> [Accessed 10 September 2026].
 MDN Web Docs, [s.a.]. Using media queries. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 10 September 2026].
+OpenAI, 2026. ChatGPT response to prompt regarding the  of "Change log and what it is might to be completed". [AI language model online] Available at: https://chatgpt.com/ [Accessed 12 September 2026].
