@@ -108,6 +108,8 @@ Tablet View
 Laptop View
 ![image alt](https://github.com/Nkuwed/WEDE-kbk-main-PoE/blob/b14f5736b472d7d5431cbfc89810b4ae44e2309c/KBK/images/portfolio/laptop%20view.png).
 
+Booking Page 
+![image alt](https://github.com/Nkuwed/WEDE-kbk-main-PoE/blob/a914e608cdd8e0917c8300483619205dc822274d/KBK/images/portfolio/booking.png). 
 
 `````
 
