@@ -99,7 +99,7 @@ KreatedByKeora/
 ├── images/
 │   ├── hero/             Logo
 │   ├── portfolio/         Nail art photography
-│   └── icons/             (reserved for future iconography)
+│  
 └── README.md
 ```
 
