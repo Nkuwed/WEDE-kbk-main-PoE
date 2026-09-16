@@ -141,5 +141,8 @@ KreatedByKeora/
   a sticky bottom thumb-nav bar for one-handed browsing — the desktop
   breakpoint (≥860px) swaps in a conventional top nav.
 
+DevTools screenshots
+
+
 
 
