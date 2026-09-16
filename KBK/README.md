@@ -163,7 +163,14 @@ MDN Web Docs, [s.a.]. CSS Grid Layout. [online] Available at: <https://developer
 MDN Web Docs, [s.a.]. Using media queries. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries> [Accessed 10 September 2026].
 OpenAI, 2026. ChatGPT response to prompt regarding the  of "Change log and what it is might to be completed". [AI language model online] Available at: https://chatgpt.com/ [Accessed 12 September 2026].
 
-DevTools 
-<img width="1858" height="948" alt="iPhone 16 view" src="https://github.com/user-attachments/assets/065e2659-dcf6-4de2-a44b-76d1639a1895" />
+DevTools
+Mobile View
+![image alt](https://github.com/Nkuwed/WEDE-kbk-main-PoE/blob/b14f5736b472d7d5431cbfc89810b4ae44e2309c/KBK/images/portfolio/iPhone%2016%20view.png)
 
+
+Tablet View
+![image alt](https://github.com/Nkuwed/WEDE-kbk-main-PoE/blob/b14f5736b472d7d5431cbfc89810b4ae44e2309c/KBK/images/portfolio/iPad%2013%20view.png)
+
+Laptop View
+![image alt](https://github.com/Nkuwed/WEDE-kbk-main-PoE/blob/b14f5736b472d7d5431cbfc89810b4ae44e2309c/KBK/images/portfolio/laptop%20view.png)
 
