@@ -53,6 +53,14 @@
   a sticky bottom thumb-nav bar for one-handed browsing — the desktop
   breakpoint (≥860px) swaps in a conventional top nav.
 
+
+  ### Part 3 - 11 October 2026
+Fixing layout of pages and navigations tabs. 
+Adding images to art.html
+Fixing enquiry form and contact form, to tell the customers when they when missed a block to fill it in. 
+Worked page by page to redo the code so the JavaScript is working throughout all pages. 
+  
+
 References 
 Glamour South Africa, 2025. Nailed it: 9 local nail artists who are changing the game. [online] Available at: [Accessed 27 July 2026].
 KreatedByKeora, [s.a.]. TikTok profile. [TikTok] Available at: [Accessed 27 July 2026].
