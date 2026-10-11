@@ -67,5 +67,9 @@ OpenAI, 2026. ChatGPT response to prompt regarding the  of "Change log and what 
 
 
 **Part 3 additions:**
-How to Add JavaScript to HTML, 2024. [online] Available at: <https://www.youtube.com/watch?v=lvvXw3HncDM> [Accessed 10 September 2026]. 
+
+
+Tiiny Tips, 2024. How to Add JavaScript to HTML. [online] Available at: <https://www.youtube.com/watch?v=lvvXw3HncDM> [Accessed 10 October 2026]. 
+
+ Bro Code, 2024. JavaScript tutorial for beginners 🌐.[online] Available at: <https://youtu.be/Ihy0QziLDf0> [Accessed 10 October 2026]. 
 
