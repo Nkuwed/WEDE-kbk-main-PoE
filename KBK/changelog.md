@@ -61,7 +61,8 @@ Fixing enquiry form and contact form, to tell the customers when they when misse
 Worked page by page to redo the code so the JavaScript is working throughout all pages. 
   
 
-References 
+**Reference List**
+
 Glamour South Africa, 2025. Nailed it: 9 local nail artists who are changing the game. [online] Available at: [Accessed 27 July 2026].
 KreatedByKeora, [s.a.]. TikTok profile. [TikTok] Available at: [Accessed 27 July 2026].
 All images are taken from KreatedByKeora main business account from Instagram < https://www.instagram.com/kreatedbykeora/ > [Accessed: 28 July 2026]
