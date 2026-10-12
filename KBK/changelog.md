@@ -55,6 +55,11 @@
 
 
   ### Part 3 - 11 October 2026
+  Part 2 feedbacK
+  > Layout structure is present but could be improved.Elements are positioned correctly, but there may be minor issues with alignment or spacing. (4/5)
+  > Layout is imrpoved and constant throughout
+
+
 Fixing layout of pages and navigations tabs. 
 Adding images to art.html
 Fixing enquiry form and contact form, to tell the customers when they when missed a block to fill it in. 
