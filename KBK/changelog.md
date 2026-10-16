@@ -66,7 +66,7 @@ Fixing enquiry form and contact form, to tell the customers when they when misse
 Worked page by page to redo the code so the JavaScript is working throughout all pages. 
   
 
-**Reference List**
+**Reference List** 
 
 Glamour South Africa, 2025. Nailed it: 9 local nail artists who are changing the game. [online] Available at: [Accessed 27 July 2026].
 KreatedByKeora, [s.a.]. TikTok profile. [TikTok] Available at: [Accessed 27 July 2026].
@@ -82,7 +82,7 @@ OpenAI, 2026. ChatGPT response to prompt regarding the  of "Change log and what 
 
 **Part 3 additions:**
 
-
+**Reference List** 
 Tiiny Tips, 2024. How to Add JavaScript to HTML. [online] Available at: <https://www.youtube.com/watch?v=lvvXw3HncDM> [Accessed 10 October 2026]. 
 
  Bro Code, 2024. JavaScript tutorial for beginners 🌐.[online] Available at: <https://youtu.be/Ihy0QziLDf0> [Accessed 10 October 2026]. 
